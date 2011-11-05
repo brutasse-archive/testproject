@@ -22,3 +22,8 @@ def test_add():
 def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(-1, 5) == -5
+
+
+def test_division():
+    assert divide(4, 2) == 2
+    assert divide(6, 4) == 1.5
