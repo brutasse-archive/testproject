@@ -14,6 +14,10 @@ def divide(a, b):
     return a / float(b)
 
 
+def substract(a, b):
+    return a - b
+
+
 def test_add():
     assert add(1, 5) == 6
     assert add(12, 12) == 24
