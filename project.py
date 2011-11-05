@@ -3,7 +3,7 @@ A test project for CI testing.
 """
 
 def add(a, b):
-    return a + b
+    return a * b
 
 
 def multiply(a, b):
